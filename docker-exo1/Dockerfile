@@ -6,5 +6,4 @@ WORKDIR scriptPython
 
 COPY hello.py .
 
-CMD ["bash"]
 CMD ["python3", "hello.py"]
