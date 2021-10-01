@@ -1,0 +1,1 @@
+docker run --name sql1 -e MYSQL_ROOT_PASSWORD=root -p 3307:3306 -d mysql:5.7
